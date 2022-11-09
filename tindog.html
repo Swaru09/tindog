@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/451bcfa550.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    .main{
+        /* background-color: tomato; */
+        background-color:red;
+        min-width: 1280px;
+        height:800px; 
+    }
+    
+    .buttons{
+        background-color: black;
+        color: white;
+        padding: 8px;
+        margin-top: 7%;
+        width:180px;
+        font-size: 25px;
+        border-radius: 7px;
+        display: inline;
+        border-color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .buttonss{
+        background-color: white;
+        color: black;
+        padding: 8px;
+        margin-top: 11%;
+        width:180px;
+        font-size: 25px;
+        border-radius: 7px;
+        display: inline;
+        border-color:white;
+        font-family: 'Montserrat', sans-serif;
+        margin-left:10px;
+    }
+    .apples{
+        margin-right: 5px;
+        font-size: 28px;
+    }
+    .gugu{
+        margin-right: 5px;
+        font-size: 26px;
+    }
+    .image1{
+        height:450px;
+        display: inline-block;
+        width:250px;
+        /* margin-left:40px; */
+        transform:rotate(+0.025turn);
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    td{
+        padding:50px;
+    }
+    table{
+        margin-left: 7%;
+        flex-wrap: wrap;
+    }
+    .image2{
+        margin-top: 10px;
+        height:0px;
+        width:0px;
+        display:none;
+    }
+    .heading{
+        color:white;
+        font-size: 60px;
+        font-family: 'Cormorant SC', serif;
+        /* width:300px; */
+        padding-right:10px;
+    }
+    .xyz{
+        background-color: red;
+        width:830px;
+        /* margin-top: 6%; */
+        margin-left:12%;
+    }
+    .tindog{
+        /* background-color:rgb(235, 217, 217); */
+        display:flex;
+        margin:0px 0px 0px 0px;
+        padding:5px 0px;
+        margin-top: 3%;
+        font-size: 50px;
+        color:white;
+    }
+    .bccolor{
+        display:flex;
+        padding-right:40px;
+    }
+    /* li{
+        float:right;
+    } */
+    .navigation{
+        margin-left:450px;
+        /* float:right; */
+        margin-top: 3%;
+    
+    }
+    .tugu{
+        margin-left: 60%;
+        color:aliceblue;
+    }
+   
+    @media only screen and (max-width:800px){
+        .image1{
+            transform:rotate(0.0turn);
+            background-color: aliceblue;
+        }
+        .part2{
+            margin-top: 6%;
+            margin-right: 18%;
+            /* margin-left: 3%; */
+        }
+    }
+    @media only screen and (max-width:600px){
+        .image2{
+            display: inline;
+            height:450px;
+            width:250px;
+        }
+        .image1{
+            display: none;
+        }
+        .main{
+            height:1280px;
+        }
+        .table{
+            margin-left: 15%;
+        }
+        .part1{
+            margin-left: 15%;
+        }
+        .part2{
+            margin-top: 6%;
+            margin-right: 18%;
+            /* margin-left: 3%; */
+        }
+        /* .tugu{
+            margin-left: 80%;
+        } */
+
+    }
+    @media only screen and (max-width:300px){
+        .part2{
+            margin-top: 6%;
+            margin-right: 18%;
+            /* margin-left: 3%; */
+        }
+        .main{
+            height:1280px;
+            /* min-width: 1250px; */
+        }
+        .class1{
+            min-width:1000px;
+            /* margin-left: 50%; */
+            padding-left: 17%;
+        }
+        .class2{
+            min-width:1000px;
+            /* margin-left: 50%; */
+            padding-left: 15%;
+        }
+        .class3{
+            min-width:1000px;
+            /* margin-left: 50%; */
+            padding-left: 15%;
+        }
+    }
+   
+
+    .part2{
+        height:400px;
+        display:flex;
+        min-width: 1000px;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+    .tick{
+        color:red;
+        font-size: 60px;
+    }
+    .class1{
+        margin-left: 10%;
+        margin-top:10%;
+        width:200px;
+        flex-wrap: wrap;
+    }
+    .hearts{
+        color:red;
+        font-size: 60px;
+    }
+    .circle{
+        color:red;
+        font-size: 60px;
+    }
+    .class2{
+        margin-left:12%;
+        margin-top:10%;
+        width:200px;
+        flex-wrap: wrap;
+    }
+    .class3{
+        margin-left: 12%;
+        margin-top:10%;
+        width:200px;
+        flex-wrap: wrap;
+    }
+    .tinnav{
+        color:white;
+        font-size: 30px;
+        /* margin-left:50%; */
+        /* padding-left:30px; */
+    }
+    .slide{
+        background-color: red;
+        margin-top: 3%;
+        height:450px;
+        
+    }
+    .abc{
+        font-size:35px;
+        color:white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width:820px;
+        margin-left:20%;
+        
+    }
+    .abcd{
+        width:150px;
+        margin-left: 40%;
+        height:150px;
+    }
+    .tugu{
+        /* border: 2px solid black; */
+        color:white;
+        /* margin-left; */
+        float:right;
+    }
+    
+</style>
+<body>
+    <div class="main">
+        <div class="part1">
+            <nav class="navbar navbar-expand-lg xyz">
+                <div class="bcolor">
+                  <div class="container-fluid bccolor">
+                    <div class="navbar-brand tindog" href="#">tindog</div>
+                    
+                    <button
+                      class="navbar-toggler tugu"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarTogglerDemo02"
+                      aria-controls="navbarTogglerDemo02"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                      <!-- <i class="fa-solid fa-align-justify tugu"></i> -->
+                    </button>
+                    <div
+                      class="collapse navbar-collapse bcolor navigation"
+                      id="navbarTogglerDemo02"
+                    >
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link tinnav" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link tinnav" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link tinnav">Download</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            <table>
+                <tr>
+                    <td class="grp1"><div class="heading">Meet new and<br> interesting dogs<br> nearby.</div></td>
+                    <td class="grp2" rowspan="2"><div><img class="image1"src="phone_doggo.jpg"></div></td>
+                </tr>
+                <tr>
+                    <td class="grp3"><div class="button"><button class="buttons"><i class="fa-brands fa-apple apples"></i>Download</button>
+                        <button class="buttonss"><i class="fa-brands fa-google-play gugu"></i>Download</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div><img class="image2"src="phone_doggo.jpg"></div></td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="part2">
+            <div class="class1">
+                <i class="fa-solid fa-circle-check tick"></i>
+                <p class="writing1">Easy to use.</p>
+                <p class="writingsubpart1">So easy to use, even your dog could do it.</p>
+            </div>
+            <div class="class2">
+                <i class="fa-solid fa-bullseye circle"></i>
+                <p class="writing2">Elite Clientele</p>
+                <p class="writingsubpart2">We have all the dogs, the greatest dogs.</p>
+            </div>
+            <div class="class3">
+                <i class="fa-solid fa-heart hearts"></i>
+                <p class="writing3">Guaranteed to work.</p>
+                <p class="writingsubpart3">Find the love of your dog's life or your money back.</p>
+            </div>
+        </div>
+        <div class="part3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active pics">
+                    <div class="abc">I no longer have to sniff other dogs for love.<br>I've found the hottest Corgi on TinDog.<br> Woof.</div>
+                    <div class="abcd"><img src="doggo.jpg" class="d-block w-100 " alt="..."></div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="abc">My dog used to be so lonely, but with <br>TinDog's help, they've found the love of their <br>life. I think.</div>
+                    <div class="abcd"><img src="girl_pic.jpg" class="d-block w-100 " alt="..."></div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="part4"></div>
+        <div class="part5"></div>
+        <div class="part6"></div>
+    </div>
+</body>
+</html>
